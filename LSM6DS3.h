@@ -13,9 +13,9 @@
 
 uint8_t beginLSM6DS3(void);
 
-msg_t readRegister(uint8_t *cmd, uint8_t *data);
+msg_t readRegister(uint8_t *cmd, uint8_t *data, size_t dataLen);
 
-msg_t writeRegister(uint8_t *data);
+msg_t writeRegister(uint8_t *data, size_t cmdLen);
 
 uint16_t readAccelX(void);
 uint16_t readAccelY(void);

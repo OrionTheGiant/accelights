@@ -16,10 +16,12 @@
 
 #include "ch.h"
 #include "hal.h"
-#include "rt_test_root.h"
-#include "oslib_test_root.h"
+//#include "rt_test_root.h"
+//#include "oslib_test_root.h"
 #include "LSM6DS3.h"
+#include "NeoPixels.h"
 #include "chprintf.h"
+#include <math.h>
 
 /*
  * Blue LED blinker thread, times are in milliseconds.
@@ -62,7 +64,11 @@ static THD_FUNCTION(ThreadIMU,arg)
   (void)arg;
   chRegSetThreadName("IMU");
   uint16_t waitTime;
-  int g;
+  float Gx,Gy,Gz; // Gravity acceleration vectors
+  float pitch, roll; // Pitch and roll calculated from Gx, Gy, Gz
+  float radius, theta; // Parameters of polar coordinates (radius is value in HSV, theta is hue, saturation is 1)
+  hsv HSV;
+  rgb RGB;
   uint16_t accelXCounts;
   uint16_t accelYCounts;
   uint16_t accelZCounts;
@@ -70,51 +76,80 @@ static THD_FUNCTION(ThreadIMU,arg)
 
   while (true)
   {
-    //if (palReadPad(GPIOA, GPIOA_BUTTON))
-    //{
-      // Read acceleration values
-      accelZCounts = readAccelZ();
+    // Read acceleration values
+    accelXCounts = readAccelX();
+    accelYCounts = readAccelY();
+    accelZCounts = readAccelZ();
 
-      // Convert from 2s complement
-        //If first bit is 1, invert all bits, add 1, multiply by -1
-      if (accelZCounts & 1<<15)
-        accelZCounts = ~accelZCounts + 1;
+    // Convert from 2s complement
+      //If first bit is 1, invert all bits, add 1, multiply by -1
+    if (accelXCounts & 1<<15)
+      accelXCounts = ~accelXCounts + 1;
+    if (accelYCounts & 1<<15)
+      accelYCounts = ~accelYCounts + 1;
+    if (accelZCounts & 1<<15)
+      accelZCounts = ~accelZCounts + 1;
 
-      // Math to get g value
-        // Count value should be in the range 0->32767 (taking absolute value of accelZCounts)
-        // Divide 32768 by accelerometer sensitivity value (e.g. 2, 4, 8, 16)
-        // Divide count value by sensitivity quotient
-      g = accelZCounts/(32768/2);
+    // Math to get g value
+      // Count value should be in the range 0->32767 (taking absolute value of accelZCounts)
+      // Divide 32768 by accelerometer sensitivity value (e.g. 2, 4, 8, 16)
+      // Divide count value by sensitivity quotient
+    Gx = accelXCounts/(32768.0/2);
+    Gy = accelYCounts/(32768.0/2);
+    Gz = accelZCounts/(32768.0/2);
 
-      // Convert g value to thread wait time
-      waitTime = g*100;
+    pitch = (atan2(Gy,(sqrt(Gx*Gx+Gy*Gy)))*180)/M_PI; // Will be in the range [-90,90]
+    roll = (atan2(-Gx,Gz)*180)/M_PI; // Will be in the range [-180,180]
+
+    pitch /= 90; // Normalize to [-1,1]
+    roll /= 180; // Normalize to [-1,1]
+
+    radius = sqrt(pitch*pitch+roll*roll);
+    if (radius > 1)
+      radius = 1; // Working with the unit circle so max radius is 1
+
+    theta = atan2(pitch,roll);
+
+    HSV.h = theta;
+    HSV.s = 1;
+    HSV.v = radius;
+
+    RGB = hsv2rgb(HSV);
+
+    neoPixelStrandColor(RGB);
+    // Convert g value to thread wait time
+    waitTime = Gz*200;
 
 
-      // Toggle LED
+    // Toggle LED
+    palTogglePad(GPIOC, GPIOC_LED4);
+
+
+
+
+    //setNeoPixels(R,G,B);
+
+
+    // Thread sleep
+    //chprintf((BaseSequentialStream *)&SD1, "W:%3.3u", waitTime);
+
+    chThdSleepMilliseconds(waitTime);
+
+
+    //msg = i2cMasterTransmitTimeout(&I2CD1, 0b1101010, cmd, sizeof(cmd), data, sizeof(data), 10000);
+    //sdWrite(&SD1, data, sizeof(data));
+    /*if (msg != MSG_OK){
       palTogglePad(GPIOC, GPIOC_LED4);
+      chThdSleepMilliseconds(50);
+      palTogglePad(GPIOC, GPIOC_LED4);
+      chThdSleepMilliseconds(50);
+      palTogglePad(GPIOC, GPIOC_LED4);
+      chThdSleepMilliseconds(50);
+      palTogglePad(GPIOC, GPIOC_LED4);
+      chThdSleepMilliseconds(50);
 
-      // Thread sleep
-      //sdWrite(&SD1, waitTime, sizeof(waitTime));
-      chprintf((BaseSequentialStream *)&SD1, "Wait Time is:  %u", waitTime);
-
-      chThdSleepMilliseconds(waitTime);
-
-
-      //msg = i2cMasterTransmitTimeout(&I2CD1, 0b1101010, cmd, sizeof(cmd), data, sizeof(data), 10000);
-      //sdWrite(&SD1, data, sizeof(data));
-      /*if (msg != MSG_OK){
-        palTogglePad(GPIOC, GPIOC_LED4);
-        chThdSleepMilliseconds(50);
-        palTogglePad(GPIOC, GPIOC_LED4);
-        chThdSleepMilliseconds(50);
-        palTogglePad(GPIOC, GPIOC_LED4);
-        chThdSleepMilliseconds(50);
-        palTogglePad(GPIOC, GPIOC_LED4);
-        chThdSleepMilliseconds(50);
-
-        sdWrite(&SD1, "Transmit Failure\r\n", 8);
-      }*/
-    //}
+      sdWrite(&SD1, "Transmit Failure\r\n", 8);
+    }*/
   }
 }
 
@@ -198,6 +233,7 @@ int main(void) {
     //{
       //test_execute((BaseSequentialStream *)&SD1, &rt_test_suite);
       //test_execute((BaseSequentialStream *)&SD1, &oslib_test_suite);
+      //chprintf((BaseSequentialStream *)&SD1, "ABC\r\n");
       //msg = i2cMasterTransmitTimeout(&I2CD1, 0x52, cmd, sizeof(cmd), data, sizeof(data), TIME_INFINITE);
       //palTogglePad(GPIOC, GPIOC_LED3);
     //}
@@ -212,5 +248,5 @@ int main(void) {
     palTogglePad(GPIOC, GPIOC_LED3);
     chThdSleepMilliseconds(1000);
   }
-  return 0;
+  //return 0;
 }

@@ -21,103 +21,127 @@ uint8_t beginLSM6DS3()
 
   uint8_t cmd[] = {CTRL1_XL, CTRL1_XL_SETUP};
 
-  msg = writeRegister(cmd);
+  msg = writeRegister(cmd, sizeof(cmd));
   if (msg != MSG_OK)
     return -1;
 
   return 0;
 }
 
-msg_t readRegister(uint8_t *cmd, uint8_t *data)
+msg_t readRegister(uint8_t *cmd, uint8_t *data, size_t dataLen)
 {
   msg_t msg;
-  msg = i2cMasterTransmitTimeout(&I2CD1, I2C_ADDR, cmd, sizeof(cmd), data, sizeof(data), 10000);
+  msg = i2cMasterTransmitTimeout(&I2CD1, I2C_ADDR, cmd, 1, data, dataLen, 10000);
 
   return msg;
 }
 
-msg_t writeRegister(uint8_t *cmd)
+msg_t writeRegister(uint8_t *cmd, size_t cmdLen)
 {
   msg_t msg;
-  msg = i2cMasterTransmitTimeout(&I2CD1, I2C_ADDR, cmd, sizeof(cmd), NULL, 0, 10000);
+  msg = i2cMasterTransmitTimeout(&I2CD1, I2C_ADDR, cmd, cmdLen, NULL, 0, 10000);
 
   return msg;
 }
 
 uint16_t readAccelX(void)
 {
-  uint8_t result[2];
+  uint8_t lowData[] = {0};
+  uint8_t highData[] = {0};
   uint16_t accelX;
+
   uint8_t cmd[] = {OUTX_L_XL};
-  readRegister(cmd, result);
+  readRegister(cmd, lowData, sizeof(lowData));
 
-  accelX = result[1]<<8 | result[0];
+  cmd[0] = OUTX_H_XL;
+  readRegister(cmd, highData, sizeof(highData));
 
+  accelX = highData[0]<<8 | lowData[0];
   return accelX;
 }
 
 
 uint16_t readAccelY(void)
 {
-  uint8_t result[2];
+  uint8_t lowData[] = {0};
+  uint8_t highData[] = {0};
   uint16_t accelY;
+
   uint8_t cmd[] = {OUTY_L_XL};
-  readRegister(cmd, result);
+  readRegister(cmd, lowData, sizeof(lowData));
 
-  accelY = result[1]<<8 | result[0];
+  cmd[0] = OUTY_H_XL;
+  readRegister(cmd, highData, sizeof(highData));
 
+  accelY = highData[0]<<8 | lowData[0];
   return accelY;
 }
 
 
 uint16_t readAccelZ(void)
 {
-  uint8_t result[2];
+  uint8_t lowData[] = {0};
+  uint8_t highData[] = {0};
   uint16_t accelZ;
+
   uint8_t cmd[] = {OUTZ_L_XL};
-  readRegister(cmd, result);
+  readRegister(cmd, lowData, sizeof(lowData));
 
-  accelZ = result[1]<<8 | result[0];
+  cmd[0] = OUTZ_H_XL;
+  readRegister(cmd, highData, sizeof(highData));
 
+  accelZ = highData[0]<<8 | lowData[0];
   return accelZ;
 }
 
 
 uint16_t readGyroX(void)
 {
-  uint8_t result[2];
+  uint8_t lowData[] = {0};
+  uint8_t highData[] = {0};
   uint16_t gyroX;
+
   uint8_t cmd[] = {OUTX_L_G};
-  readRegister(cmd, result);
+  readRegister(cmd, lowData, sizeof(lowData));
 
-  gyroX = result[1]<<8 | result[0];
+  cmd[0] = OUTX_H_G;
+  readRegister(cmd, highData, sizeof(highData));
 
+  gyroX = highData[0]<<8 | lowData[0];
   return gyroX;
 }
 
 
 uint16_t readGyroY(void)
 {
-  uint8_t result[2];
+  uint8_t lowData[] = {0};
+  uint8_t highData[] = {0};
   uint16_t gyroY;
+
   uint8_t cmd[] = {OUTY_L_G};
-  readRegister(cmd, result);
+  readRegister(cmd, lowData, sizeof(lowData));
 
-  gyroY = result[1]<<8 | result[0];
+  cmd[0] = OUTY_H_G;
+  readRegister(cmd, highData, sizeof(highData));
 
+  gyroY = highData[0]<<8 | lowData[0];
   return gyroY;
 }
 
 
 uint16_t readGyroZ(void)
 {
-  uint8_t result[2];
+  uint8_t lowData[] = {0};
+  uint8_t highData[] = {0};
   uint16_t gyroZ;
+
   uint8_t cmd[] = {OUTZ_L_G};
-  readRegister(cmd, result);
+  readRegister(cmd, lowData, sizeof(lowData));
 
-  gyroZ = result[1]<<8 | result[0];
+  cmd[0] = OUTZ_H_G;
+  readRegister(cmd, highData, sizeof(highData));
 
+  gyroZ = highData[0]<<8 | lowData[0];
   return gyroZ;
 }
 

@@ -97,26 +97,20 @@ build/obj/main.o: main.c ../../chibios182/os/rt/include/ch.h chconf.h \
  ../../chibios182/os/hal/include/hal_wdg.h \
  ../../chibios182/os/hal/include/hal_st.h \
  ../../chibios182/os/hal/include/hal_mmc_spi.h \
- ../../chibios182/os/hal/include/hal_serial_usb.h \
- ../../chibios182/test/rt/source/test/rt_test_root.h \
- ../../chibios182/test/lib/ch_test.h \
- ../../chibios182/test/rt/source/test/rt_test_sequence_001.h \
- ../../chibios182/test/rt/source/test/rt_test_sequence_002.h \
- ../../chibios182/test/rt/source/test/rt_test_sequence_003.h \
- ../../chibios182/test/rt/source/test/rt_test_sequence_004.h \
- ../../chibios182/test/rt/source/test/rt_test_sequence_005.h \
- ../../chibios182/test/rt/source/test/rt_test_sequence_006.h \
- ../../chibios182/test/rt/source/test/rt_test_sequence_007.h \
- ../../chibios182/test/rt/source/test/rt_test_sequence_008.h \
- ../../chibios182/test/rt/source/test/rt_test_sequence_009.h \
- ../../chibios182/test/rt/source/test/rt_test_sequence_010.h \
- ../../chibios182/test/oslib/source/test/oslib_test_root.h \
- ../../chibios182/test/oslib/source/test/oslib_test_sequence_001.h \
- ../../chibios182/test/oslib/source/test/oslib_test_sequence_002.h \
- ../../chibios182/test/oslib/source/test/oslib_test_sequence_003.h \
- ../../chibios182/test/oslib/source/test/oslib_test_sequence_004.h \
- LSM6DS3.h ../../chibios182/os/hal/lib/streams/chprintf.h \
- c:\chibistudio\tools\gnu\ tools\ arm\ embedded\7.0\ 2017q4\lib\gcc\arm-none-eabi\7.2.1\include\stdarg.h
+ ../../chibios182/os/hal/include/hal_serial_usb.h LSM6DS3.h NeoPixels.h \
+ ../../chibios182/os/hal/lib/streams/chprintf.h \
+ c:\chibistudio\tools\gnu\ tools\ arm\ embedded\7.0\ 2017q4\lib\gcc\arm-none-eabi\7.2.1\include\stdarg.h \
+ c:\chibistudio\tools\gnu\ tools\ arm\ embedded\7.0\ 2017q4\arm-none-eabi\include\math.h \
+ c:\chibistudio\tools\gnu\ tools\ arm\ embedded\7.0\ 2017q4\arm-none-eabi\include\sys\reent.h \
+ c:\chibistudio\tools\gnu\ tools\ arm\ embedded\7.0\ 2017q4\arm-none-eabi\include\_ansi.h \
+ c:\chibistudio\tools\gnu\ tools\ arm\ embedded\7.0\ 2017q4\arm-none-eabi\include\newlib.h \
+ c:\chibistudio\tools\gnu\ tools\ arm\ embedded\7.0\ 2017q4\arm-none-eabi\include\sys\config.h \
+ c:\chibistudio\tools\gnu\ tools\ arm\ embedded\7.0\ 2017q4\arm-none-eabi\include\machine\ieeefp.h \
+ c:\chibistudio\tools\gnu\ tools\ arm\ embedded\7.0\ 2017q4\arm-none-eabi\include\sys\_types.h \
+ c:\chibistudio\tools\gnu\ tools\ arm\ embedded\7.0\ 2017q4\arm-none-eabi\include\machine\_types.h \
+ c:\chibistudio\tools\gnu\ tools\ arm\ embedded\7.0\ 2017q4\arm-none-eabi\include\sys\lock.h \
+ c:\chibistudio\tools\gnu\ tools\ arm\ embedded\7.0\ 2017q4\arm-none-eabi\include\sys\cdefs.h \
+ c:\chibistudio\tools\gnu\ tools\ arm\ embedded\7.0\ 2017q4\arm-none-eabi\include\_ansi.h
 
 ../../chibios182/os/rt/include/ch.h:
 
@@ -326,42 +320,32 @@ mcuconf.h:
 
 ../../chibios182/os/hal/include/hal_serial_usb.h:
 
-../../chibios182/test/rt/source/test/rt_test_root.h:
-
-../../chibios182/test/lib/ch_test.h:
-
-../../chibios182/test/rt/source/test/rt_test_sequence_001.h:
-
-../../chibios182/test/rt/source/test/rt_test_sequence_002.h:
-
-../../chibios182/test/rt/source/test/rt_test_sequence_003.h:
-
-../../chibios182/test/rt/source/test/rt_test_sequence_004.h:
-
-../../chibios182/test/rt/source/test/rt_test_sequence_005.h:
-
-../../chibios182/test/rt/source/test/rt_test_sequence_006.h:
-
-../../chibios182/test/rt/source/test/rt_test_sequence_007.h:
-
-../../chibios182/test/rt/source/test/rt_test_sequence_008.h:
-
-../../chibios182/test/rt/source/test/rt_test_sequence_009.h:
-
-../../chibios182/test/rt/source/test/rt_test_sequence_010.h:
-
-../../chibios182/test/oslib/source/test/oslib_test_root.h:
-
-../../chibios182/test/oslib/source/test/oslib_test_sequence_001.h:
-
-../../chibios182/test/oslib/source/test/oslib_test_sequence_002.h:
-
-../../chibios182/test/oslib/source/test/oslib_test_sequence_003.h:
-
-../../chibios182/test/oslib/source/test/oslib_test_sequence_004.h:
-
 LSM6DS3.h:
+
+NeoPixels.h:
 
 ../../chibios182/os/hal/lib/streams/chprintf.h:
 
 c:\chibistudio\tools\gnu\ tools\ arm\ embedded\7.0\ 2017q4\lib\gcc\arm-none-eabi\7.2.1\include\stdarg.h:
+
+c:\chibistudio\tools\gnu\ tools\ arm\ embedded\7.0\ 2017q4\arm-none-eabi\include\math.h:
+
+c:\chibistudio\tools\gnu\ tools\ arm\ embedded\7.0\ 2017q4\arm-none-eabi\include\sys\reent.h:
+
+c:\chibistudio\tools\gnu\ tools\ arm\ embedded\7.0\ 2017q4\arm-none-eabi\include\_ansi.h:
+
+c:\chibistudio\tools\gnu\ tools\ arm\ embedded\7.0\ 2017q4\arm-none-eabi\include\newlib.h:
+
+c:\chibistudio\tools\gnu\ tools\ arm\ embedded\7.0\ 2017q4\arm-none-eabi\include\sys\config.h:
+
+c:\chibistudio\tools\gnu\ tools\ arm\ embedded\7.0\ 2017q4\arm-none-eabi\include\machine\ieeefp.h:
+
+c:\chibistudio\tools\gnu\ tools\ arm\ embedded\7.0\ 2017q4\arm-none-eabi\include\sys\_types.h:
+
+c:\chibistudio\tools\gnu\ tools\ arm\ embedded\7.0\ 2017q4\arm-none-eabi\include\machine\_types.h:
+
+c:\chibistudio\tools\gnu\ tools\ arm\ embedded\7.0\ 2017q4\arm-none-eabi\include\sys\lock.h:
+
+c:\chibistudio\tools\gnu\ tools\ arm\ embedded\7.0\ 2017q4\arm-none-eabi\include\sys\cdefs.h:
+
+c:\chibistudio\tools\gnu\ tools\ arm\ embedded\7.0\ 2017q4\arm-none-eabi\include\_ansi.h:

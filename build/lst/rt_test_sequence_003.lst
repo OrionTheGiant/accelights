@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -12,14 +12,14 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
    9              		.eabi_attribute 34, 0
   10              		.eabi_attribute 18, 4
   11              		.file	"rt_test_sequence_003.c"
-  12              		.section	.gnu.lto_.profile.18248144,"",%progbits
+  12              		.section	.gnu.lto_.profile.3dd4c600,"",%progbits
   13 0000 789C6363 		.ascii	"x\234cc```\003bF\206Ml\177\230\000\005x\001\304"
   13      60606003 
   13      6246864D 
   13      6C7F9800 
   13      057801C4 
   14              		.text
-  15              		.section	.gnu.lto_.icf.18248144,"",%progbits
+  15              		.section	.gnu.lto_.icf.3dd4c600,"",%progbits
   16 0000 789C6363 		.ascii	"x\234cc``\360`@\000\036\206G\015\317\267\3622o\353\352"
   16      6060F060 
   16      40001E86 
@@ -45,7 +45,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
   20      0016A523 
   20      8C
   21              		.text
-  22              		.section	.gnu.lto_.jmpfuncs.18248144,"",%progbits
+  22              		.section	.gnu.lto_.jmpfuncs.3dd4c600,"",%progbits
   23 0000 789CBD98 		.ascii	"x\234\275\230\375STU\030\307\317s.\273\313.\260D\276"
   23      FD535455 
   23      18C7CF73 
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
   24      B333B418 
   25 0027 2E5A3FB1 		.ascii	".Z?\261\225\250\200\031\224\002\306\"\243\243%\021\216"
   25      95A88019 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 2
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 2
 
 
   25      9402C622 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
   36      5764D425 
   36      3772A2D1 
   36      D728878D 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 3
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 3
 
 
   37 0110 715D1878 		.ascii	"q]\030x\212\212;\325u|\330\241w\351q\337\310 \273\037"
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
   48      CFE16763 
   48      DDF6735A 
   48      B869F3
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 4
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 4
 
 
   49 01e8 16777676 		.ascii	"\026wvvN\217\272\020&;\254\344\327)\"v\330\304\022M"
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
   60      AE8DC0B3 
   60      72E00C
   61 02c1 07EEDFC4 		.ascii	"\007\356\337\304\373\217\215\274\367\254\235\260\367"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 5
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 5
 
 
   61      FB8F8DBC 
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
   73 038b 12459F85 		.ascii	"\022E\237\205k\035\271\326\247wu\263\344\364\342?\257"
   73      6B1DB9D6 
   73      A77775B3 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 6
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 6
 
 
   73      E4F4E23F 
@@ -351,14 +351,14 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
   83      B6B1FF00 
   83      3B355EA0 
   84              		.text
-  85              		.section	.gnu.lto_.inline.18248144,"",%progbits
+  85              		.section	.gnu.lto_.inline.3dd4c600,"",%progbits
   86 0000 789C6363 		.ascii	"x\234cc``0eb\200\0036\006\206\013\014\252\214\014La"
   86      60603065 
   86      62800336 
   86      06860B0C 
   86      AA8C0C4C 
   87 0015 9B663132 		.ascii	"\233f12\260-\220\007\313\261\360200M\360\303\240\231"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 7
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 7
 
 
   87      B02D9007 
@@ -405,7 +405,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
   96      0600B4BA 
   96      46B5
   97              		.text
-  98              		.section	.gnu.lto_.pureconst.18248144,"",%progbits
+  98              		.section	.gnu.lto_.pureconst.3dd4c600,"",%progbits
   99 0000 789C6363 		.ascii	"x\234cc``\340\003b6\206]\214\314\222,\222l\222\034R"
   99      6060E003 
   99      6236865D 
@@ -414,11 +414,11 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  100 0015 9C52000D 		.ascii	"\234R\000\015\266\001s"
  100      B60173
  101              		.text
- 102              		.section	.gnu.lto_rt_test_003_004_execute.18248144,"",%progbits
+ 102              		.section	.gnu.lto_rt_test_003_004_execute.3dd4c600,"",%progbits
  103 0000 789C9D58 		.ascii	"x\234\235X{P\224\327\025\277\347\336}|\273,\013\002"
  103      7B5094D7 
  103      15BFE7DE 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 8
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 8
 
 
  103      7D7CBB2C 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  114      2E188BE1 
  114      0F7DC15F 
  115 00e8 96A1DEE9 		.ascii	"\226\241\336\351\2667\343b3n\001\330P\234\030\356\376"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 9
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 9
 
 
  115      B637E362 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  126      33850617 
  126      896E
  127 01ba 9A15D1E0 		.ascii	"\232\025\321\340!\261\230f^\032JH,\245\331<\032\312"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 10
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 10
 
 
  127      21B19866 
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  138      70A3FFC8 
  138      C894
  139 028b E2EF2597 		.ascii	"\342\357%\227\2117\366V\305E\021\034\303\320\266c\364"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 11
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 11
 
 
  139      8937F656 
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  150      6E99043C 
  150      DE25EF51 
  151 0361 67C147B6 		.ascii	"g\301G\266\031|\002\315qQ\312F\241\355\374\362\373\336"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 12
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 12
 
 
  151      197C02CD 
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  162      B97F1B35 
  162      470A306A 
  162      D4DC
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 13
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 13
 
 
  163 0437 E4AEFE87 		.ascii	"\344\256\376\207\365\310\254I\356\313[h\227\3573\375"
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  174      CF60
  175 0509 4F8FD16D 		.ascii	"O\217\321m\212e\016k\322r\350\265\314\341\2244X\\X\267"
  175      8A650E6B 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 14
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 14
 
 
  175      D272E8B5 
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  186      D96B
  187 05ec 6E14DC6B 		.ascii	"n\024\334k^\340f\257\331\316e\257I\275\352\024\260A"
  187      5EE066AF 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 15
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 15
 
 
  187      D9CE65AF 
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  198      941E5BB2 
  198      C48FDF
  199 06c9 8155C1A7 		.ascii	"\201U\301\247\203\241\310\322e\217\372\243j$\352\017"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 16
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 16
 
 
  199      83A1C8D2 
@@ -958,13 +958,13 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  210      99B35EAD 
  210      0F85D7EA 
  210      0B2A2EFC 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 17
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 17
 
 
  210      0F
  211 07a1 6F05F0EA 		.ascii	"o\005\360\352"
  212              		.text
- 213              		.section	.gnu.lto_rt_test_003_003_execute.18248144,"",%progbits
+ 213              		.section	.gnu.lto_rt_test_003_003_execute.3dd4c600,"",%progbits
  214 0000 789C8D56 		.ascii	"x\234\215V\335O\034U\024\277g\356\314\354\224n\027l"
  214      DD4F1C55 
  214      14BF67EE 
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  224 00c3 2E867663 		.ascii	".\206vc\315\337Dx;\036\001\310\250\256\214t\335v\221"
  224      CDDF4478 
  224      3B1E01C8 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 18
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 18
 
 
  224      A8AE8C74 
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  236 019d 0E5F7B24 		.ascii	"\016_{$E\341\020D\270\006\3758\233\357\251N\370\001"
  236      45E11044 
  236      B806FD38 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 19
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 19
 
 
  236      9BEFA94E 
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  247      B65F1F56 
  247      A975
  248 0271 442886C1 		.ascii	"D(\206\301B\341\275'\337\247\215.\016\"\\j\0162\316"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 20
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 20
 
 
  248      42E1BD27 
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  259      B6992A19 
  259      673A6DCE 
  259      946ED5A3 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 21
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 21
 
 
  259      EDC6
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  270      7286
  271 0425 2B628634 		.ascii	"+b\20640\325\372e\275\013\222\370\277d\037\026\210["
  271      30D5FA65 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 22
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 22
 
 
  271      BD0B92F8 
@@ -1299,7 +1299,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  278      E85FE6
  279 04ad 9D1807   		.ascii	"\235\030\007"
  280              		.text
- 281              		.section	.gnu.lto_rt_test_003_002_execute.18248144,"",%progbits
+ 281              		.section	.gnu.lto_rt_test_003_002_execute.3dd4c600,"",%progbits
  282 0000 789C9DDA 		.ascii	"x\234\235\332yLT\327\032\000\360{\316\231\031\220\325"
  282      794C54D7 
  282      1A00F07B 
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  285 0039 0E88A3E2 		.ascii	"\016\210\243\342\202\273\305\005\020\220\"\"\213\373"
  285      82BBC505 
  285      10902222 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 23
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 23
 
 
  285      8BFB
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  297      A81F46FD 
  297      311A80D1 
  298 011f 408C0661 		.ascii	"@\214\006a4\030\243!X-\002/\207\342\3450\214\206c4\002"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 24
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 24
 
 
  298      3418A321 
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  309      07E98C88 
  310 01ef 7D04A87D 		.ascii	"}\004\250}$\264\235z\035\006}\014\204\037d0\242\366"
  310      24B49D7A 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 25
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 25
 
 
  310      1D067D0C 
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  321      5CEFFEE6 
  321      CAEA7BC1 
  321      5ADB309B 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 26
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 26
 
 
  321      61A4
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  333 039a 56496957 		.ascii	"VIiW\031iWC\205\3338}\267\361\006\246Y\261|\307\334"
  333      19695743 
  333      85DB387D 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 27
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 27
 
 
  333      B7F106A6 
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  345 0476 B1066AED 		.ascii	"\261\006j\355\035;\223\260#X\323\332\241j}\323]k\017"
  345      1D3B93B0 
  345      2358D3DA 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 28
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 28
 
 
  345      A16A7DD3 
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  356      A526CFD2 
  357 0556 B48BCE7A 		.ascii	"\264\213\316z\012:C4\235w\271\316P\250u-\361\210\233"
  357      0A3A4334 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 29
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 29
 
 
  357      9D77B9CE 
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  368      971CE482 
  368      7708
  369 062e 851C8092 		.ascii	"\205\034\200\222\360\305\273m'\366\321\310\377j\367"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 30
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 30
 
 
  369      F0C5BB6D 
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  380      9560
  381 0705 A7CD12AC 		.ascii	"\247\315\022\254DL\2603\230`\275\345X\356I\260\224\302"
  381      444CB033 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 31
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 31
 
 
  381      9860BDE5 
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  393      1E516117 
  393      F418AD
  394 07df F4975B79 		.ascii	"\364\227[y%\261R\017K\337 \265\322`\264\322\010\025"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 32
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 32
 
 
  394      25B1520F 
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  405      8195C1EA 
  405      86E079AA 
  405      C9862099 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 33
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 33
 
 
  406 08bf 756D085E 		.ascii	"um\010^\016\320\246b\210\317\015\301*fqC\260\232\337"
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  417 098b E7391397 		.ascii	"\3479\023\227)\326\212\225=\346V\366r+\273eV\366\351"
  417      29D68A95 
  417      3DE656F6 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 34
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 34
 
 
  417      722BBB65 
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  429      AF63C102 
  429      E48288A5 
  429      0C07F183 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 35
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 35
 
 
  430 0a73 014B8CFC 		.ascii	"\001K\214\374d\201c)\305\266.y\260\344q,#\241=\357\223"
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  441      E0
  442 0b42 4770F5CF 		.ascii	"Gp\365\317\011\023\242\340\277\350y\261\263c\027.\236"
  442      0913A2E0 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 36
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 36
 
 
  442      BFE879B1 
@@ -2133,7 +2133,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  448      FF032044 
  448      7849
  449              		.text
- 450              		.section	.gnu.lto_thread.18248144,"",%progbits
+ 450              		.section	.gnu.lto_thread.3dd4c600,"",%progbits
  451 0000 789C354F 		.ascii	"x\2345OMKBQ\020\235\363\256>E\250uP\013[\211\033\265"
  451      4D4B4251 
  451      109DF3AE 
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  455      F3205F08 
  455      82B67E4B 
  455      94766B80 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 37
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 37
 
 
  455      2AA41B
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  467      D2F5F4A8 
  467      2A0AFCCF 
  467      0634A289 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 38
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 38
 
 
  468 013b 4020C827 		.ascii	"@ \310'2\027\235\215\306\314\221\361\321`\3020\023\301"
@@ -2235,7 +2235,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  470      018C777E 
  470      D3
  471              		.text
- 472              		.section	.gnu.lto_rt_test_003_001_execute.part.0.18248144,"",%progbits
+ 472              		.section	.gnu.lto_rt_test_003_001_execute.part.0.3dd4c600,"",%progbits
  473 0000 789CA557 		.ascii	"x\234\245W[PSW\024=\373\234\334\334\020\224\372\370"
  473      5B505357 
  473      143DFB9C 
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  481 0089 98452095 		.ascii	"\230E \225)\223DpfPg\006\220\310\246\300$\001\320\215"
  481      29934470 
  481      66506706 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 39
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 39
 
 
  481      90C8A6C0 
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  492      8F
  493 0166 F15148A3 		.ascii	"\361QH\2436\337{FR\224'O\213\025\305;{\332\313\300|"
  493      36DF7B46 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 40
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 40
 
 
  493      5294274F 
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  505 023c C55D2702 		.ascii	"\305]'\002)\326\335\212\273@\271R_1sG\025Z\230\341/"
  505      29D6DD8A 
  505      BB40B952 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 41
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 41
 
 
  505      5F317347 
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  516      B3
  517 0312 56999B32 		.ascii	"V\231\2332t\214\013\036w\251\221\343\201\277\202\220"
  517      748C0B1E 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 42
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 42
 
 
  517      77A991E3 
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  528      EB
  529 03e1 9D842D3D 		.ascii	"\235\204-=\210-MV\003\317h\351\273\230\200{\224\226"
  529      882D4D56 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 43
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 43
 
 
  529      03CF68E9 
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  540      8976A991 
  540      E3756529 
  540      66AB8C80 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 44
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 44
 
 
  540      9651B6CC 
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  551      D36DCCE0 
  552 0588 5A617F33 		.ascii	"Za\1773\306\203\303i]\2764\333\372\211#\327\345\264"
  552      C683C369 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 45
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 45
 
 
  552      5DBE34DB 
@@ -2677,7 +2677,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  559      03CF9B80 
  559      5F
  560              		.text
- 561              		.section	.gnu.lto_rt_test_003_001_execute.18248144,"",%progbits
+ 561              		.section	.gnu.lto_rt_test_003_001_execute.3dd4c600,"",%progbits
  562 0000 789CA556 		.ascii	"x\234\245V_L[e\024\377\316\375\356mK\201\202\354i\013"
  562      5F4C5B65 
  562      14FFCEFD 
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  565      C01CF29F 
  565      F9073698 
  565      FC
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 46
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 46
 
 
  566 004d 1914C698 		.ascii	"\031\024\306\230\321h\302\334\302\3469\367\266\265\245"
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  577      B434607E 
  577      2E0A7424 
  577      E22125D1 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 47
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 47
 
 
  577      914C8785 
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  589 01fb 4CEDE91E 		.ascii	"L\355\351\036\003\341\320Z\305V\300\333\334~D\322\272"
  589      03E1D05A 
  589      C556C0DB 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 48
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 48
 
 
  589      DC7E44D2 
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  600      44CF
  601 02d8 8FC5C70D 		.ascii	"\217\305\307\015\230\344e\234\037\255\216\251\250n\010"
  601      98E4659C 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 49
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 49
 
 
  601      1FAD8EA9 
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  612      83B2FE
  613 03b6 4AB35EFF 		.ascii	"J\263^\377\233FX\334\024<\336\322\"\307\003\277\204"
  613      9B4658DC 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 50
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 50
 
 
  613      143CDED2 
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  624      1E347B34 
  624      9E99CD
  625 0487 5958E82C 		.ascii	"YX\350,\012Fy\352\271\354\375\331\257\240\205\315\351"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 51
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 51
 
 
  625      0A4679EA 
@@ -3019,7 +3019,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  628      2F88E74F 
  628      42
  629              		.text
- 630              		.section	.gnu.lto_rt_test_sequence_003.18248144,"",%progbits
+ 630              		.section	.gnu.lto_rt_test_sequence_003.3dd4c600,"",%progbits
  631 0000 789C6363 		.ascii	"x\234cc``\310\001\342P\006\010\230\302\314\330\374k"
  631      6060C801 
  631      E2500608 
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  638      F48B
  639 0086 4AF48BF3 		.ascii	"J\364\213\363K\213\222Sa\334x\020\035_\234ZX\232\232"
  639      4B8B9253 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 52
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 52
 
 
  639      61DC7810 
@@ -3075,7 +3075,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  641      52C90000 
  642 00bb 67E74730 		.ascii	"g\347G0"
  643              		.text
- 644              		.section	.gnu.lto_rt_test_sequence_003_array.18248144,"",%progbits
+ 644              		.section	.gnu.lto_rt_test_sequence_003_array.3dd4c600,"",%progbits
  645 0000 789C6363 		.ascii	"x\234cc``\270\017\304v\014\0200\205\231qZ\353\241\363"
  645      6060B80F 
  645      C4760C10 
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  653      407A2B90 
  653      DE02A437 
  653      33CA3030 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 53
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 53
 
 
  654 009d 66B460B0 		.ascii	"f\264`\260\321\323\323\007\242\344\214\314\244\314\374"
@@ -3138,7 +3138,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  657      3300002C 
  657      6E638B
  658              		.text
- 659              		.section	.gnu.lto_rt_test_003_001.18248144,"",%progbits
+ 659              		.section	.gnu.lto_rt_test_003_001.3dd4c600,"",%progbits
  660 0000 789C6363 		.ascii	"x\234cc``\350\004\342(\006\010\230\302\314\270s\347"
  660      6060E804 
  660      E2280608 
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  667      9E9E3E
  668 008b 10256764 		.ascii	"\020%gd&e\346\027\033Z\030\351\227\244\026\227\350\027"
  668      2665E617 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 54
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 54
 
 
  668      1B5A18E9 
@@ -3199,7 +3199,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  671      01006244 
  671      4EE4
  672              		.text
- 673              		.section	.gnu.lto_rt_test_003_002.18248144,"",%progbits
+ 673              		.section	.gnu.lto_rt_test_003_002.3dd4c600,"",%progbits
  674 0000 789C6363 		.ascii	"x\234cc``\350\004\342\002\006\010\230\302\314\270s\347"
  674      6060E804 
  674      E2020608 
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  681      3BA3
  682 0085 05838D9E 		.ascii	"\005\203\215\236\236>\020%gd&e\346\027\033Z\030\351"
  682      9E3E1025 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 55
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 55
 
 
  682      67642665 
@@ -3265,7 +3265,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  686      4A492D62 
  687 00eb 6F655868 		.ascii	"oeXh"
  688              		.text
- 689              		.section	.gnu.lto_rt_test_003_003.18248144,"",%progbits
+ 689              		.section	.gnu.lto_rt_test_003_003.3dd4c600,"",%progbits
  690 0000 789C6363 		.ascii	"x\234cc``\350\004\342\020\006\010\230\302\314\270s\347"
  690      6060E804 
  690      E2100608 
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  696      6C63AC9F 
  696      CACCC8B8 
  696      8551662A 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 56
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 56
 
 
  696      50219862 
@@ -3326,7 +3326,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  701      000052C8 
  701      4D89
  702              		.text
- 703              		.section	.gnu.lto_rt_test_003_004.18248144,"",%progbits
+ 703              		.section	.gnu.lto_rt_test_003_004.3dd4c600,"",%progbits
  704 0000 789C6363 		.ascii	"x\234cc``\350\004\342<\006\010\230\302\314\270s\347"
  704      6060E804 
  704      E23C0608 
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  709      39CCCC53 
  709      81
  710 006b 466C63AC 		.ascii	"Flc\254\237\312\314\310\270\205Qf*P!\230bf\334\314X"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 57
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 57
 
 
  710      9FCACCC8 
@@ -3392,7 +3392,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  716      81BA1800 
  716      6B635731 
  717              		.text
- 718              		.section	.gnu.lto_.symbol_nodes.18248144,"",%progbits
+ 718              		.section	.gnu.lto_.symbol_nodes.3dd4c600,"",%progbits
  719 0000 789C5D8F 		.ascii	"x\234]\217\335J\303@\020\205gv\2334\361\017\333Z\365"
  719      DD4AC340 
  719      10856776 
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  723      17844DDA 
  723      39AF
  724 005c 884CF180 		.ascii	"\210L\361\200Jd2\342\016\225\314\3767Ba\362\327Hff\367"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 58
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 58
 
 
  724      4A6432E2 
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  735      4EF2C3EF 
  735      6D937FB3 
  735      8C47967A 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 59
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 59
 
 
  735      6C19
@@ -3498,7 +3498,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  738      AE805FB7 
  739 0172 ECC622   		.ascii	"\354\306\""
  740              		.text
- 741              		.section	.gnu.lto_.refs.18248144,"",%progbits
+ 741              		.section	.gnu.lto_.refs.3dd4c600,"",%progbits
  742 0000 789C2DCC 		.ascii	"x\234-\314\177+Cq\030\005\360s\316\275\337\347\331\335"
  742      7F2B4371 
  742      1805F073 
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  749      2FC80740 
  749      4BC8
  750 008f 1E417F0A 		.ascii	"\036A\177\012?\207_\302\253\360k\370-\374\036\376\010"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 60
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 60
 
 
  750      3F875FC2 
@@ -3557,7 +3557,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  753 00c1 027E01E6 		.ascii	"\002~\001\346|\024\367"
  753      7C14F7
  754              		.text
- 755              		.section	.gnu.lto_.decls.18248144,"",%progbits
+ 755              		.section	.gnu.lto_.decls.3dd4c600,"",%progbits
  756 0000 789CB57C 		.ascii	"x\234\265|\011X\\\327\225f\275\272UT\001\005\330Hv;"
  756      09585CD7 
  756      9566BDBA 
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  763      40F94095 
  764 0094 405540B5 		.ascii	"@U@\265@u@M@\315@]@\003@\017\201F\200F\201&\201\246"
  764      4075404D 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 61
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 61
 
 
  764      40CD405D 
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  776      78ECD826 
  776      1E3FB689 
  777 016e B70FC970 		.ascii	"\267\017\311p\253\025\264\237x\234\257\263~\262\204"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 62
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 62
 
 
  777      AB15B49F 
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  788      DF
  789 023e 4CE23EC3 		.ascii	"L\342>\3031\001d`\343\302\013\376x3~\334\366\240\254"
  789      31016460 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 63
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 63
 
 
  789      E3C20BFE 
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  800      50ACC888 
  800      E8D1D884 
  801 0322 6281A901 		.ascii	"b\201\251\001F\353_c\266bP^\004\312\025\\\011\007\313"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 64
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 64
 
 
  801      46EB5F63 
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  812      AB29F45A 
  812      027DEA4E 
  812      FE29A5
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 65
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 65
 
 
  813 03fd 187AAD04 		.ascii	"\030z\255\004z\035\203^G\240\307\036.\210UR\355\337"
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  824      1CD15192 
  824      FCE8A6D2 
  824      928EFB96 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 66
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 66
 
 
  825 04d5 75147DB7 		.ascii	"u\024}\267:\310hTr\235\240\243C\320\321\3161%\306\370"
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  835      97
  836 05b2 A098D4D6 		.ascii	"\240\230\324\326:g\031\3718\217|\214\"\017\275\325s"
  836      3A6719F9 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 67
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 67
 
 
  836      388F7C8C 
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  847      B6287889 
  847      45E3261C 
  847      D9FE9199 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 68
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 68
 
 
  847      6C91
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  858      60A25628 
  858      FE49
  859 0763 A188D6EE 		.ascii	"\241\210\326\356#\265\351\253Qv\3502\361?\227R\030V"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 69
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 69
 
 
  859      23B5E9AB 
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  870      D01A25D7 
  870      1A43B4B6 
  870      B47547DB 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 70
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 70
 
 
  870      A11EAA
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  881      9EF105CF 
  881      9E3279F6 
  882 091e 724F4687 		.ascii	"rOF\207\2164\206:.\225z1\354\372\304O-;\36141 \2157"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 71
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 71
 
 
  882      8E34863A 
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  893      13ECFA84 
  894 09f9 6D0AEE5F 		.ascii	"m\012\356_\352y\254&\3300\303y\212-=\371\342\007\274"
  894      EA79AC26 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 72
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 72
 
 
  894      D830C379 
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  905      FD0995D1 
  906 0acf DF613961 		.ascii	"\337a9a\325\366\350\026-\244\225\225<\326\240{\264\300"
  906      D5F6E816 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 73
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 73
 
 
  906      2DA49595 
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  917      D92D
  918 0bb0 74C638D0 		.ascii	"t\3068\320\200\354#\347\012K\241k*t\206\362\336;t\347"
  918      80EC23E7 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 74
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 74
 
 
  918      0A4BA16B 
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  929      9269259B 
  929      058E240D 
  929      BD86
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 75
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 75
 
 
  930 0c97 02A8CB22 		.ascii	"\002\250\313\"\016\255\345\"\024F\012\312\211\303Y\005"
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  941      22D5B229 
  941      E1164D99 
  942 0d6e EF507757 		.ascii	"\357PwW\206\343\305;\014\000\205\012\200B\0203\246\370"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 76
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 76
 
 
  942      86E3C53B 
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  953      CA7864DB 
  953      796EF98C 
  953      3DE7443F 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 77
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 77
 
 
  953      9B9C9D9C 
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  965 0f29 8D1ACEC9 		.ascii	"\215\032\316\311y\023U\010c>\351Q\004\215(h\301E\203"
  965      79135508 
  965      633EE951 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 78
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 78
 
 
  965      048D2868 
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  978 1000 340E3406 		.ascii	"4\0164\0064\0124\0024\0144\004t\007\250\011\250\021"
  978      340A3402 
  978      340C3404 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 79
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 79
 
 
  978      7407A809 
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  990 10de 594F169D 		.ascii	"YO\026\235\310nI'2v/\340\244&\362t,N\205\260;\312\205"
  990      C86E4927 
  990      32762FE0 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 80
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 80
 
 
  990      A426F274 
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1001      702F
  1002 11bb EEE01E10 		.ascii	"\356\340\036\020\330\311:\244\013,~\000\226\335\027"
  1002      D8C93AA4 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 81
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 81
 
 
  1002      0B2C7E00 
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1013      1361DBC7 
  1014 128d CB87EFC6 		.ascii	"\313\207\357\306\275\305\375\037P\363\361-\202C\362"
  1014      BDC5FD1F 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 82
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 82
 
 
  1014      50F3F12D 
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1025      9D62E8EF 
  1025      3D12A4
  1026 136d B4886189 		.ascii	"\264\210a\211`X\3441\344wT\345i\031\206\372\\\264z+"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 83
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 83
 
 
  1026      6058E431 
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1037      45EF693F 
  1037      F6
  1038 144d A0562ABE 		.ascii	"\240V*\276\2230\325\037\220\356\200\222(sj}h\2435:I"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 84
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 84
 
 
  1038      9330D51F 
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1049      74E54401 
  1049      3B0CD80C 
  1050 1526 C5D5DEE8 		.ascii	"\305\325\336\350h\015\353v|\033\340|\352\314\011\204"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 85
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 85
 
 
  1050      680DEB76 
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1061      3CD005A0 
  1061      3C49970F 
  1062 1609 75CA3C9D 		.ascii	"u\312<\235\363\\O\317u\312<\235c\301\323\3147\235\324"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 86
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 86
 
 
  1062      F35C4FCF 
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1073      85
  1074 16e3 0175050F 		.ascii	"\001u\005\017\250B\346\011\334}\327\241\373\256A\267"
  1074      A842E609 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 87
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 87
 
 
  1074      DC7DD7A1 
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1085      E69856DC 
  1085      770D9587 
  1086 17c2 71DF3581 		.ascii	"q\3375\201\354\006\241\357j7\366\235\311\336"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 88
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 88
 
 
  1086      EC06A1EF 
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1098 1895 D76EAB51 		.ascii	"\327n\253Q,U\230y\356I\274\032e\322\302\370\335\226"
  1098      2C559879 
  1098      EE49BC1A 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 89
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 89
 
 
  1098      65D2C2F8 
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1110 1967 F4126B71 		.ascii	"\364\022kq\\\214J\022\3111S\\D\344\\\011P\213G\232%"
  1110      5C8C4A12 
  1110      C931535C 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 90
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 90
 
 
  1110      44E45C09 
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1122      87E772F0 
  1122      FCFA04
  1123 1a46 20AE756E 		.ascii	" \256un\2163\032\177\315-\300\\7\267a\256\233c\000\027"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 91
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 91
 
 
  1123      8E331A7F 
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1134      73D9EDC0 
  1135 1b1d 525B8BE9 		.ascii	"R[\213\351@\260\232\245\003C4\035\230\015\017\232g\357"
  1135      40B09AA5 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 92
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 92
 
 
  1135      0343341D 
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1147 1bed AAB5FC0A 		.ascii	"\252\265\374\012B\234Z\374\022IK\331z\274-\323\336\224"
  1147      429C5AFC 
  1147      12494BD9 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 93
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 93
 
 
  1147      7ABC2DD3 
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1158      8A319FA2 
  1159 1ccd E3BF69A5 		.ascii	"\343\277i\245\210\0233\237\226L\026i\2149\2150_\250"
  1159      8813339F 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 94
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 94
 
 
  1159      964C1669 
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1170      C47673A8 
  1170      8A168ED4 
  1170      8F
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 95
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 95
 
 
  1171 1da6 BF896AE9 		.ascii	"\277\211j\351\357\265\232\3127Q\023\375]}5+\223Cwia"
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1182      C99D5DCC 
  1182      3D1D8A04 
  1182      F6B372F6 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 96
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 96
 
 
  1182      6CB5
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1194      66CF373F 
  1194      1FF0A7B6 
  1194      DDB7DBB3 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 97
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 97
 
 
  1194      ECD1
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1206      1D2A7F85 
  1206      086B892C 
  1206      2CB761C2 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 98
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 98
 
 
  1207 2028 1E14DB26 		.ascii	"\036\024\333&\337\224\010\033\022\204\015\311\205\015"
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1218      0728E607 
  1218      A73430AC 
  1218      1D186BD7 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 99
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 99
 
 
  1218      D872EB
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1231 21dc 3B8977DA 		.ascii	";\211w\332\367\312\221\007\003\362 +,,\204 '\"I\001"
  1231      F7CA9107 
  1231      03F2202B 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 100
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 100
 
 
  1231      2C2C8420 
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1243      5C0F7802 
  1243      8A83FBF5 
  1243      BE
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 101
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 101
 
 
  1244 22b3 5BF72AB4 		.ascii	"[\367*\264\274\276\177\371\377\252\317\367\240\357\036"
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1255      C5CE236E 
  1255      C2
  1256 237c 2E7F45AC 		.ascii	".\177E\254\316\344\212\227I\345W\256\036\200\221\262"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 102
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 102
 
 
  1256      CEE48A97 
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1268      F0B8EEDF 
  1268      EB
  1269 2454 EDA3D7F8 		.ascii	"\355\243\327\370b\325\276\237\253\201\200\341+\203\301"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 103
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 103
 
 
  1269      62D5BE9F 
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1281      636DEA42 
  1281      F5BEFD10 
  1281      98
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 104
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 104
 
 
  1282 252c 5AE6DF6F 		.ascii	"Z\346\337o0M\371\272\355u\007\231o\276\220\021\372\036"
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1293      609C41F9 
  1294 25f7 95AB860D 		.ascii	"\225\253\206\015\331\315\346\226\014\265\033\014\002"
  1294      D9CDE696 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 105
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 105
 
 
  1294      0CB51B0C 
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1306      8D7603FD 
  1306      6CF76EF4 
  1306      BB0F77A1 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 106
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 106
 
 
  1306      5DBF
@@ -6348,7 +6348,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1315      2F
  1316 2773 370BB410 		.ascii	"7\013\264\020"
  1317              		.text
- 1318              		.section	.gnu.lto_.symtab.18248144,"",%progbits
+ 1318              		.section	.gnu.lto_.symtab.3dd4c600,"",%progbits
  1319 0000 72745F74 		.ascii	"rt_test_sequence_003\000"
  1319      6573745F 
  1319      73657175 
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1321 0016 00       		.ascii	"\000"
  1322 0017 00       		.ascii	"\000"
  1323 0018 00000000 		.ascii	"\000\000\000\000\000\000\000\000"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 107
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 107
 
 
  1323      00000000 
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1361 00be 63685468 		.ascii	"chThdSetPriority\000"
  1361      64536574 
  1361      5072696F 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 108
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 108
 
 
  1361      72697479 
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1392 016f 00       		.ascii	"\000"
  1393 0170 02       		.ascii	"\002"
  1394 0171 00       		.ascii	"\000"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 109
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 109
 
 
  1395 0172 00000000 		.ascii	"\000\000\000\000\000\000\000\000"
@@ -6537,7 +6537,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 1
  1418              		.comm	__gnu_lto_v1,1,1
  1419              		.comm	__gnu_lto_slim,1,1
  1420              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 7.2.1 20170904 (release) [ARM
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccUsts98.s 			page 110
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\ccTvt3eP.s 			page 110
 
 
 DEFINED SYMBOLS

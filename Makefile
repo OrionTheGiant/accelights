@@ -114,7 +114,8 @@ LDSCRIPT= $(STARTUPLD)/STM32F051x8.ld
 CSRC = $(ALLCSRC) \
        $(TESTSRC) \
        main.c	  \
-       LSM6DS3.c  
+       LSM6DS3.c  \
+       NeoPixels.c
 
 # C++ sources that can be compiled in ARM or THUMB mode depending on the global
 # setting.
@@ -206,7 +207,7 @@ UINCDIR =
 ULIBDIR =
 
 # List all user libraries here
-ULIBS =
+ULIBS = -lm
 
 #
 # End of user defines

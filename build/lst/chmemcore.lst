@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -12,14 +12,14 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
    9              		.eabi_attribute 34, 0
   10              		.eabi_attribute 18, 4
   11              		.file	"chmemcore.c"
-  12              		.section	.gnu.lto_.profile.18249eee,"",%progbits
+  12              		.section	.gnu.lto_.profile.3dd4d1c7,"",%progbits
   13 0000 789C6363 		.ascii	"x\234cc```\001bF\006}m\000\001\001\000f"
   13      60606001 
   13      6246067D 
   13      6D000101 
   13      0066
   14              		.text
-  15              		.section	.gnu.lto_.icf.18249eee,"",%progbits
+  15              		.section	.gnu.lto_.icf.3dd4d1c7,"",%progbits
   16 0000 789C6363 		.ascii	"x\234cc``\220g@\000V\206\353g\217\2240\366\377}\377"
   16      60609067 
   16      40005686 
@@ -33,7 +33,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
   18      2E0B0300 
   18      F4A90E92 
   19              		.text
-  20              		.section	.gnu.lto_.jmpfuncs.18249eee,"",%progbits
+  20              		.section	.gnu.lto_.jmpfuncs.3dd4d1c7,"",%progbits
   21 0000 789C6363 		.ascii	"x\234cc``\320a@\000\026\020ffddd\257\237\303\314\000"
   21      6060D061 
   21      40001610 
@@ -44,7 +44,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
   22      A80E0098 
   22      FE0716
   23              		.text
-  24              		.section	.gnu.lto_.inline.18249eee,"",%progbits
+  24              		.section	.gnu.lto_.inline.3dd4d1c7,"",%progbits
   25 0000 789C6363 		.ascii	"x\234cc``\250`@\000\026\006\006V\026F\006&\226\005\362"
   25      6060A860 
   25      40001606 
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
   27 0028 68D8C608 		.ascii	"h\330\306\010\221e\373\240\307\303\300t\201\237\005"
   27      9165FBA0 
   27      C7C3C074 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 2
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 2
 
 
   27      819F05
@@ -73,7 +73,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
   29      2B18001B 
   29      EB0DA0
   30              		.text
-  31              		.section	.gnu.lto_.pureconst.18249eee,"",%progbits
+  31              		.section	.gnu.lto_.pureconst.3dd4d1c7,"",%progbits
   32 0000 789C6363 		.ascii	"x\234cc``\340\002b\026\006\011\026\011\326]\214l,\000"
   32      6060E002 
   32      62160609 
@@ -81,7 +81,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
   32      8C6C2C00 
   33 0014 05B20113 		.ascii	"\005\262\001\023"
   34              		.text
-  35              		.section	.gnu.lto__core_init.18249eee,"",%progbits
+  35              		.section	.gnu.lto__core_init.3dd4d1c7,"",%progbits
   36 0000 789C8591 		.ascii	"x\234\205\221\317K\024a\030\307\237\357\274\273\343"
   36      CF4B1461 
   36      18C79FEF 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
   43      5AE743C9 
   43      23B8
   44 0087 BBA18FC8 		.ascii	"\273\241\217\310\341\013\256 \232\341\251\006\236\240"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 3
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 3
 
 
   44      E10BAE20 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
   55      79323DE9 
   55      099C4C07 
   55      9638FD
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 4
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 4
 
 
   56 015b 459CBEB4 		.ascii	"E\234\276\264\367v\253\235\213k\234\276\011\025\261"
@@ -218,7 +218,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
   63      5FE947EC 
   63      9A
   64              		.text
-  65              		.section	.gnu.lto_chCoreAllocAlignedWithOffsetI.18249eee,"",%progbits
+  65              		.section	.gnu.lto_chCoreAllocAlignedWithOffsetI.3dd4d1c7,"",%progbits
   66 0000 789C8D54 		.ascii	"x\234\215T\333K\224Q\020\237\371\316\371\366\333Vw-"
   66      DB4B9451 
   66      109FF9CE 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
   69      49484845 
   69      76D12C37 
   69      4DD76E96 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 5
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 5
 
 
   69      61627729 
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
   80      ACD7
   81 0116 E491D1DA 		.ascii	"\344\221\321\3325\016w\264y\231\315\025\330\265@\342"
   81      350E77B4 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 6
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 6
 
 
   81      7999CD15 
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
   92      568DCDC6 
   92      99C465E2 
   93 01f5 CFDAB8B0 		.ascii	"\317\332\270\260\221\034M6\341\035V\0250\302u\021\312"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 7
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 7
 
 
   93      911C4D36 
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
  104      8427697B 
  104      4CAA9A26 
  104      E3
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 8
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 8
 
 
  105 02c9 FD591CF0 		.ascii	"\375Y\034\360?\225\335^\270\262\324^.\355\316\334\013"
@@ -456,7 +456,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
  111      1EDCFD1B 
  111      07C49D3F 
  112              		.text
- 113              		.section	.gnu.lto_chCoreAllocAlignedWithOffset.18249eee,"",%progbits
+ 113              		.section	.gnu.lto_chCoreAllocAlignedWithOffset.3dd4d1c7,"",%progbits
  114 0000 789C8D55 		.ascii	"x\234\215UaL[U\024\276\247\367\275\276\256@\013\374"
  114      614C5B55 
  114      14BEA7F7 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
  117      84226320 
  117      1B2003
  118 004f C6C894E9 		.ascii	"\306\310\224\351\206\301\014\315t\"\3409\367=\030\205"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 9
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 9
 
 
  118      86C10CCD 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
  129      CF636337 
  129      6DFC05
  130 0128 011E1A29 		.ascii	"\001\036\032)\333f`\3577=\246c9\234\213q\3617\220F\200"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 10
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 10
 
 
  130      DB6660EF 
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
  141      60D721A7 
  142 01fe 103B3271 		.ascii	"\020;2ql\246E\241\305\"\002\335\204[\331JK\034\011\343"
  142      6CA645A1 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 11
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 11
 
 
  142      C52202DD 
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
  154      2AAB9F09 
  154      1243B430 
  154      F8019319 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 12
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 12
 
 
  155 02de A482E052 		.ascii	"\244\202\340R\315eL\212\"[v\254KI\201\330\033=\215\315"
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
  166 03b0 A3A21260 		.ascii	"\243\242\022`T\342:Vb\032JG;3V\202H\022\375\024@\336"
  166      54E23A56 
  166      621A4A47 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 13
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 13
 
 
  166      3B335682 
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
  178 0484 42C84F8B 		.ascii	"B\310O\213\345\245\240Pu\3479s\337\336\343B\205\357"
  178      E5A5A050 
  178      75E73973 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 14
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 14
 
 
  178      DFDEE342 
@@ -807,7 +807,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
  183      1F451BCD 
  183      B6
  184              		.text
- 185              		.section	.gnu.lto_chCoreGetStatusX.18249eee,"",%progbits
+ 185              		.section	.gnu.lto_chCoreGetStatusX.3dd4d1c7,"",%progbits
  186 0000 789C8D90 		.ascii	"x\234\215\220MK\002a\020\307g\366\331\365\205\312>@"
  186      4D4B0261 
  186      10C767F6 
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
  192      9056308D 
  192      736251E0 
  192      F5E4962D 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 15
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 15
 
 
  192      66854D6D 
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
  204 013e 4F4AB634 		.ascii	"OJ\2664\215\256\240u\035\250n\327\272pE/\351\320\302"
  204      8DAEA075 
  204      1DA86ED7 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 16
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 16
 
 
  204      BA70452F 
@@ -917,7 +917,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
  207      8801DF0A 
  207      02A4F0
  208              		.text
- 209              		.section	.gnu.lto_.symbol_nodes.18249eee,"",%progbits
+ 209              		.section	.gnu.lto_.symbol_nodes.3dd4d1c7,"",%progbits
  210 0000 789C6363 		.ascii	"x\234cc``H\006b\006\246\035\214\365\014\014\023\316"
  210      60604806 
  210      6206A61D 
@@ -939,7 +939,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
  213      0C003529 
  214 0047 15E6     		.ascii	"\025\346"
  215              		.text
- 216              		.section	.gnu.lto_.refs.18249eee,"",%progbits
+ 216              		.section	.gnu.lto_.refs.3dd4d1c7,"",%progbits
  217 0000 789C1D88 		.ascii	"x\234\035\210A\012\200@\014\304\222\216\366\260\247"
  217      410A8040 
  217      0CC4928E 
@@ -955,10 +955,10 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
  219      0C1F1615 
  219      00CE
  220              		.text
- 221              		.section	.gnu.lto_.decls.18249eee,"",%progbits
+ 221              		.section	.gnu.lto_.decls.3dd4d1c7,"",%progbits
  222 0000 789CAD56 		.ascii	"x\234\255V}PT\327\025\177\347\335ewYv\221A\247\343\264"
  222      7D5054D7 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 17
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 17
 
 
  222      157FE7DD 
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
  233      FF4530A7 
  233      5F82AB55 
  234 00e3 441A27F5 		.ascii	"D\032'\365\015E\207b\000\316\011\013\360\025\342\242"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 18
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 18
 
 
  234      0D458762 
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
  245      A282217A 
  245      70D99F02 
  245      00BE
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 19
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 19
 
 
  246 01c4 A8FC3BA7 		.ascii	"\250\374;\247\363<\202\007\236\273\345\261\0238\344"
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
  257 028f 99D39740 		.ascii	"\231\323\227@\361z\177\326\341\275\324\353n\364\372"
  257      F17A7FD6 
  257      E1BDD4EB 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 20
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 20
 
 
  257      6EF4FA
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
  269      1E0421CA 
  269      41F01926 
  269      E1
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 21
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 21
 
 
  270 0373 06260109 		.ascii	"\006&\001\011\216~Xv\301@N\021F\320U1|\215\3142\014"
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
  281      44AED653 
  281      7FFF58FF 
  282 044b 6AA95CEC 		.ascii	"j\251\\\354\246\207EDm)B\000\303\277\306\361}\322u\215"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 22
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 22
 
 
  282      A6874544 
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
  293      233473D8 
  293      2B30CC3B 
  293      FFE6B3B3 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 23
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 23
 
 
  294 0526 CFF5E43D 		.ascii	"\317\365\344=\206\244*O=6\242\202\210\020@u\340[\214"
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
  305      DEB9D1
  306 05f7 410D5E11 		.ascii	"A\015^\021nz5\227\223N\227\013\217\227\024y\355\006"
  306      6E7A3597 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 24
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 24
 
 
  306      934E970B 
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
  317      C1BBE6
  318 06cd 53E48861 		.ascii	"S\344\210a\302\212\310\310(\3743\307[c\254vG\364\232"
  318      C28AC8C8 
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 25
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 25
 
 
  318      28FC33C7 
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
  329      773A73BC 
  329      A420
  330 07a0 6B6C9677 		.ascii	"kl\226w\2358\366\227\244d\253\315\271Fr\306\375\217"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 26
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 26
 
 
  330      9D38F697 
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
  341      5687845D 
  341      4E93C262 
  341      FA
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 27
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 27
 
 
  342 0880 157AE7CF 		.ascii	"\025z\347\317<\245~b\016b\255\016\017\345\277\001\005"
@@ -1568,7 +1568,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
  342      05
  343 0891 B4D72C   		.ascii	"\264\327,"
  344              		.text
- 345              		.section	.gnu.lto_.symtab.18249eee,"",%progbits
+ 345              		.section	.gnu.lto_.symtab.3dd4d1c7,"",%progbits
  346 0000 5F636F72 		.ascii	"_core_init\000"
  346      655F696E 
  346      697400
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
  372 009f 00       		.ascii	"\000"
  373 00a0 00       		.ascii	"\000"
  374 00a1 00000000 		.ascii	"\000\000\000\000\000\000\000\000"
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 28
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 28
 
 
  374      00000000 
@@ -1675,7 +1675,7 @@ ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 1
  397              		.comm	__gnu_lto_v1,1,1
  398              		.comm	__gnu_lto_slim,1,1
  399              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 7.2.1 20170904 (release) [ARM
-ARM GAS  C:\Users\hgray\AppData\Local\Temp\ccogaS3M.s 			page 29
+ARM GAS  C:\Users\hunter\AppData\Local\Temp\cc0Z2zDT.s 			page 29
 
 
 DEFINED SYMBOLS
